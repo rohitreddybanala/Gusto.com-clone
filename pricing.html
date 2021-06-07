@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pricing</title>
+        <style type="text/css">
+            * {
+                font-family: "clearface", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            }
+            .box1,.box6{
+                display:flex;
+                font-size: 50px;
+                background-color: rgb(252, 236, 236);
+            }
+            .box1 > div,.box3 > div,.box6 > div{
+                margin: 50px auto;
+                text-align: center;
+            }
+            .box2{
+                display: flex;
+                flex-direction: row;
+                background-color: rgb(252, 236, 236);
+            }
+            .box2 >div{
+                margin:10px ;
+                background-color: rgba(255, 255, 255, 0.979);
+            }
+            .button{
+                width:150px;
+                height: 50px;
+                background-color: rgb(236, 77, 77);
+                border-radius: 5px;
+                color: white;
+                cursor: pointer;
+                border: 1px solid rgb(236, 77, 77);;
+            }
+            .box2> div >div{
+                margin: 20px;
+                line-height: 30px;
+            }
+            ul{
+                list-style: none; 
+            }
+            ul li::before {
+                content:'✓';
+                line-height: 35px;
+            }
+            .box3{
+                display:flex;
+                background-color: rgb(252, 236, 236);
+            }
+            .box4{
+                display: grid;
+                grid-template-columns: 49.5% 49.5%;
+                background-color: rgb(238, 236, 236);
+            }
+            .box4_2,.box5_2{
+                display: grid;
+                grid-template-columns: 49% 49%;
+            }
+            .box4_2>div,.box5_2>div{
+                line-height: 25px;
+                border-bottom: 2px solid white;
+                margin:20px;
+            }
+            .box5{
+                width: 100%;
+                height: 530px;
+                background-color: rgb(252, 236, 236);
+            }
+            .box5_1{
+                width: 49.5%;
+                height: 530px;
+                float: left;
+            }
+            .table{
+                width: 90%;
+                background-color: rgb(238, 236, 236);
+                margin: 20px 0px 30px 80px;
+                table-layout: center;
+            }
+            td{
+                text-align: center;
+                margin:20px;
+                color: green;
+            }
+            .col1{
+                text-align: left;
+                margin: 20px;
+                font-size: 20px;
+                color: black;
+            }
+            .row_even{
+                background-color:white;
+            }
+            .row1{
+                border-bottom:1px solid skyblue;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1">
+            <div>Choose the plan that’s right<br>
+                for your business.
+            </div>
+        </div>
+        <div class="box2">
+            <div>
+                <div><h1>basic</h1></div>
+                <div><p>A beta plan* with payroll basics. Recommend teams of 1 or 2.</p></div>
+                <div><p style="font-size: 30px;color: rgb(240, 133, 133);">$19/mo<strong style="color:  rgb(114, 107, 107);font-size: medium;">base price</strong></p></div>
+                <div><p>plus<strong style="color: rgb(240, 133, 133);">$6/mo</strong>per person</p></div>
+                <div><button class="button">Get Started</button></div>
+                <ul>
+                    <li>Full-service payroll in any single state</li>
+                    <li>Employee self service and profiles</li>
+                    <li>Workers’ comp administration</li>
+                    <li>4-day direct deposit</li>
+                    <li>Paid-time-off policies</li>
+                    <li>Best-in-class support</li>
+                </ul>
+            </div>
+            <div>
+                <div><h1>core</h1></div>
+                <div><p>Smart, streamlined payroll and benefits built for smaller teams.</p></div>
+                <div><p style="font-size: 30px;color: rgb(240, 133, 133);">$39/mo<strong style="color:  rgb(114, 107, 107);font-size: medium;">base price</strong></p></div>
+                <div><p>plus<strong style="color: rgb(240, 133, 133);">$6/mo</strong>per person</p></div>
+                <div><button class="button">Get Started</button></div>
+                <ul>
+                    <li>Full-service payroll across all 50 states</li>
+                    <li>Employee self service and profiles</li>
+                    <li>Workers’ comp administration</li>
+                    <li>2-day direct deposit</li>
+                    <li>Paid-time-off policies</li>
+                    <li>Best-in-class support</li>
+                    <li>Employee onboarding tools</li>
+                    <li>Accounting and time tracking integrations</li>
+                    <li>Payroll on Autopilot®</li>
+                    <li>Health insurance administration</li>
+                    <li>Employee access to Gusto Wallet</li>
+                    <li>Employee offers and document management</li>
+                </ul>
+            </div>
+            <div>
+                <div><h1>Complete</h1></div>
+                <div><p>Better team tools so you can create a great place to work.</p></div>
+                <div><p style="font-size: 30px;color: rgb(240, 133, 133);">$39/mo<strong style="color:  rgb(114, 107, 107);font-size: medium;">base price</strong></p></div>
+                <div><p>plus<strong style="color: rgb(240, 133, 133);">$12/mo</strong>per person</p></div>
+                <div><button class="button">Get Started</button></div>
+                <ul>
+                    <li>Full-service payroll across all 50 states</li>
+                    <li> Employee self service and profiles</li>
+                    <li>Workers’ comp administration</li>
+                    <li>Next-day direct deposit</li>
+                    <li> PTO policies and time-off requests</li>
+                    <li>Best-in-class support</li>
+                    <li>Customizable employee onboarding tools</li>
+                    <li>Accounting and time tracking integrations</li>
+                    <li>Payroll on Autopilot®</li>
+                    <li>Health insurance administration</li>
+                    <li>Employee access to Gusto Wallet</li>
+                    <li>Employee offers and document management</li>
+                    <li>Permissions</li>
+                    <li>Employee directory and surveys</li>
+                    <li>Time tracking</li>
+                    <li>Project tracking and workforce costing</li>
+                </ul>
+            </div>
+            <div>
+                <div><h1>Concierge</h1></div>
+                <div><p>Certified HR pros and resources for even more peace of mind.</p></div>
+                <div><p style="font-size: 30px;color: rgb(240, 133, 133);">$149/mo<strong style="color:  rgb(114, 107, 107);font-size: medium;">base price</strong></p></div>
+                <div><p>plus<strong style="color: rgb(240, 133, 133);">$12/mo</strong>per person</p></div>
+                <div><button class="button">Get Started</button></div>
+                <ul>
+                    <li>Full-service payroll across all 50 states</li>
+                    <li>Employee self service and profiles</li>
+                    <li>Workers’ comp administration</li>
+                    <li>Next-day direct deposit</li>
+                    <li>PTO policies and time-off requests</li>
+                    <li>Dedicated best-in-class support</li>
+                    <li>Customizable employee onboarding tools</li>
+                    <li>Accounting and time tracking integrations</li>
+                    <li>Payroll on Autopilot®</li>
+                    <li>Health insurance administration</li>
+                    <li>Employee access to Gusto Wallet</li>
+                    <li>Employee offers and document management</li>
+                    <li>Permissions</li>
+                    <li>Employee directory and surveys</li>
+                    <li>Time tracking</li>
+                    <li>Project tracking and workforce costing</li>
+                    <li>Certified HR pros</li>
+                    <li>HR resource center</li>
+                </ul>
+            </div>
+        </div>
+        <div class="box3">
+            <div>
+                <p>Compare plans and features</p>
+                <h1 style="font-size: 50px;">Contractor</h1>
+                <p>Haven’t hired W-2 employees yet?</p>
+                <p>We can help you pay your 1099 contractors for just $6 per person each month.</p>
+                <button class="button">Get Started</button>
+            </div>
+        </div>
+        <div class="box4">
+            <div class="box4_1">
+                <div style="height: 450px;width: 49.5;font-size: 50px;">Add extra benefits like<br> 401(k)s, FSAs, and <br>more.</div>
+                <div><img src="https://prod.gusto-assets.com/assets/product/pricing/illo-hands-apple-39c29f7ea8ad182568299963c1695e24cde7b5ecd47619b934738a0f41df9990.png.webp"></div>
+            </div>
+            <div class="box4_2">
+                <div>
+                    <h1>Workers' comp</h1>
+                    <p>Pay-as-you-go workers' comp plans, through our partner AP Intego, that integrate with your payroll. </p> 
+                    <b>No administration fees <br> 
+                    Pay only for premiums</b>
+                </div>
+                <div>
+                    <h1>Gusto Wallet</h1>
+                    <p>The Gusto Wallet app is a free way for your employees to track, save, and access their money.</p>
+                    <b>No account minimums<br>
+                    No hidden fees¹</b>
+                </div>
+                <div>
+                    <h1>Health insurance</h1>
+                    <p>Our licensed brokers can help you pick the right plan and carrier for your team and budget.</p>
+                    <b>Administration included<br>
+                    Pay only for premiums</b>
+                </div>
+                <div>
+                    <h1>Health reimbursement²</h1>
+                    <p>A flexible health benefit where you choose how much to reimburse eligible employee health premiums each month.</p>
+                    <b>$15/mo per employee<br>
+                    Pick a monthly contribution (up to a max)</b>
+                </div>
+                <div>
+                    <h1>401(k) retirement</h1>
+                    <p>Integrated 401(k) plans through our partner Guideline, with some of the lowest fees in the industry.</p>
+                    <b>Starts at $39/month plus <br>           
+                    $8/participating employee<br>
+                    No setup fee</b>
+                </div>
+                <div>
+                    <h1>529 college savings</h1>
+                    <p>Tax-advantaged savings accounts, through our partner Gradvisor, so employees can save for their children's educations.</p>
+                    <b>$6/mo per participant<br>
+                    $18/mo minimum<br>
+                    No setup fee</b>
+                </div>
+            </div>
+        </div>
+        <div style="background-color:  rgb(238, 236, 236);width: 100%;height: 200px;">
+            <b>Health benefits are not available with Gusto's Basic plan.</b>
+
+            <p>1 Some fees, such as out-of-network ATM and foreign transactions fees, may apply. Please review the terms and conditions carefully.</p>
+            <p>2 Health reimbursements are offered as part of a Qualified Small Employer Health Reimbursement Arrangement (QSEHRA).</p>
+        </div>
+        <div class="box5">
+            <div class="box5_1">
+                <div style="float: left;width:48%;height :240px;line-height: 35px;margin: 20px;">
+                    <h1 style="font-size: 30px;">Set up tax-advantaged spending accounts for your team.</h1>
+                    <p>One $200 annual service charge covers all three account types</p>
+                </div>
+            </div>
+            <div class="box5_2">
+                <div>
+                    <h1>Health savings accounts (HSAs)</h1>
+                    <p>Pre-tax savings accounts for qualified health expenses.</p>
+                    <b style="color: rgb(138, 172, 138);">$2.50/mo per participant<br>No minimum</b>
+                </div>
+                <div>
+                    <h1>Commuter benefits</h1>
+                    <p>Pre-tax spending accounts for commuting costs.</p>
+                    <b style="color: rgb(138, 172, 138);">Starts at $39/month plus <br>           
+                    $8/participating employee<br>
+                    No setup fee</b>
+                </div>
+                <div>
+                    <h1>529 college savings</h1>
+                    <p>Tax-advantaged savings accounts, through our partner Gradvisor, so employees can save for their children's educations.</p>
+                    <b style="color: rgb(138, 172, 138);">$6/mo per participant<br>
+                    $18/mo minimum<br>
+                    No setup fee</b>
+                </div>
+            </div>
+        </div>
+        <div class="box6">
+            <div>
+                <b>Compare Future By Any Plan</b>
+            </div>
+        </div>
+        <div style="display:grid;background-color:rgb(238, 236, 236);">
+        <table class="table">
+            <thead>
+                <tr class= "row1">
+                    <th style="width: 45%;"></th>
+                    <th>Basic</th>
+                    <th>Core</th>
+                    <th>Complete</th>
+                    <th>Concierge</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col1"><p><b>full service roll</b></p></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr class="row_even">
+                    <td class="col1"><p>Unlimited payrolls</p></td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td class="col1"><p>All 50 states</p></td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr class="row_even">
+                    <td class="col1"><p>Multi-state payroll</p></td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr>
+                    <td class="col1"><p>Payroll in any single state</p></td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+                <tr class="row_even">
+                    <td class="col1"><p>Tax filings and payments</p></td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                    <td>✓</td>
+                </tr>
+            </tbody>
+        </table>
+        <button style="width:10%;background-color: white;text-align: center;margin: 20px auto;cursor: pointer;"><p>See all Feature</p></button>
+        </div>
+    </body>
+</html>
